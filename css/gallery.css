@@ -1,0 +1,46 @@
+body {
+    background-color:;
+    }
+    
+    a{
+        text-decoration:none;
+        color: #3cb371;
+    }
+    
+    /* Navbar */
+    .navbar-brand{
+      font-family: cursive;
+    }
+    .nav-link{
+      color: hsl(0, 0%, 100%);
+    }
+    .nav-link:hover{
+    color: #3cb371;
+    }
+    .navbar-email{
+      color: white;
+    }
+    .navbar-email:hover{
+      color:#3cb371;
+    }
+    /* End of NavBar */
+
+    /* Footer */
+.col-lg-4 {
+    flex: 0 0 33.33333%;
+    max-width: 100%;
+  }
+  .mr-2,
+  .mx-2 {
+    margin-right: 0.5rem !important;
+  }
+  
+  .btn-lg, .btn-group-lg > .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+  }
+  footer h4{
+    font-family: cursive;
+  }
