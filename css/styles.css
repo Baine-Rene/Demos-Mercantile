@@ -10,15 +10,6 @@ a{
     color: white;
 }
 
-.demos-loader {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background: url(../img) center no-repeat #fff; }
-
 /* Navbar */
 .navbar-brand{
   font-family: 'dreamorphans-b'; 
