@@ -53,6 +53,10 @@ font-size: 16px;
 }
 
     /* Footer */
+    footer .container-fluid{
+      padding: 50px;
+          }
+          
 .mr-2,
 .mx-2 {
   margin-right: 0.5rem !important;

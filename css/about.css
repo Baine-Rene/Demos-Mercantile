@@ -168,6 +168,10 @@ font-weight: 900;
   }
 
     /* Footer */
+    footer .container-fluid{
+      padding: 50px;
+          }
+          
     footer  a{
       text-decoration:none;
       color: #3cb371;
