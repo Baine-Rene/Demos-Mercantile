@@ -4,6 +4,10 @@
   font-family: 'dreamorphans-b'; 
   src: url('../Fonts/dreamorphans/dreamorphans-b.ttf')
 }
+@font-face {
+  font-family: 'inter'; 
+  src: url('../Fonts/inter/Inter-ExtraBold.ttf')
+}
 
 a{
     text-decoration:none;
@@ -20,26 +24,37 @@ a{
 }
 .nav-link:hover{
 color: #3cb371;
-
+display: inline-block;
+padding: .75rem 1.5rem;
+border-radius: .5rem;
 }
 .navbar-form{
   color: white;
   font-family: 'dreamorphans-b'; 
 }
 .navbar-form:hover{
-  color:#3cb371; 
+  color:#000000; 
 }
 .navbar-form .fa{
 font-size: 16px;
 }
- .navbar-toggler:focus {
-  outline: none;
-  box-shadow: none;
+.navbar .btn{
+  transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s;
+  transition:all 4.s ease-in-out;
 }
 .navbar .btn{
   background-color: #3cb371;
   color: #fff;
 }
+.navbar .btn:hover{
+    color: #000000;
+    background-color: white;
+}
+ .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 /* End of NavBar */
 
 
@@ -50,6 +65,10 @@ header .btn{
  border-radius: 10px;
  border: 1px solid #3cb371;
 }
+header .btn{
+  transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s;
+  transition:all 4.s ease-in-out;
+}
 .title{
   font-family: 'dreamorphans-b';
   font-size: 95px;
@@ -59,6 +78,10 @@ header .btn{
   font-family: 'dreamorphans-b';
   font-size: 65px;
   font-weight:900;
+}
+header p{
+  font-family: 'inter';
+    font-weight: 200;
 }
 
 /* Media Queries */
@@ -100,27 +123,29 @@ header .btn{
     font-family: 'dreamorphans-b'; 
   }
   
-  
   .why-us .content p {
     margin-bottom: 30px;
+    font-family: 'inter';
+    font-weight: 300;
   }
   
-  .why-us .content .more-btn {
+  .why-us .content .btn {
     display: inline-block;
     background: rgba(255, 255, 255, 0.2);
     padding: 6px 30px 8px 30px;
     color: #fff;
     border-radius: 50px;
     transition: all ease-in-out 0.4s;
+    font-family: 'dreamorphans-b'; 
   }
-  
-  .why-us .content .more-btn i {
-    font-size: 14px;
+  .why-us .btn{
+    transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s;
+    transition:all 4.s ease-in-out;
   }
-  
-  .why-us .content .more-btn:hover {
-    color: #3cb371;
+  .why-us .content .btn:hover {
+    color: #000000;
     background: #fff;
+    
   }
   
   .why-us .icon-boxes .icon-box {
@@ -140,12 +165,14 @@ header .btn{
   
   .why-us .icon-boxes .icon-box h4 {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     margin: 0 0 30px 0;
   }
   
   .why-us .icon-boxes .icon-box p {
     font-size: 15px;
+    font-family: 'inter';
+    font-weight: 300;
     color: #716f6f;
   }
   
@@ -154,9 +181,18 @@ header .btn{
   font-family: 'dreamorphans-b'; 
   font-weight: 600;
 }
-.service p, h3 {
+.service h3 {
     color: white;
+    font-family: 'dreamorphans-b'; 
+    
 }
+.service p{
+  color: white;
+  font-family: 'inter';
+  font-weight: 500;
+  
+}
+
 .services-title {
 color: #3cb371;
 }
