@@ -16,9 +16,11 @@ a{
 }
 .nav-link{
   color: hsl(0, 0%, 100%);
+  font-family: 'dreamorphans-b';
 }
 .nav-link:hover{
 color: #3cb371;
+
 }
 .navbar-form{
   color: white;
@@ -30,17 +32,33 @@ color: #3cb371;
 .navbar-form .fa{
 font-size: 16px;
 }
+ .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar .btn{
+  background-color: #3cb371;
+  color: #fff;
+}
 /* End of NavBar */
 
 
 /* Header */
+header .btn{
+  font-family: 'dreamorphans-b';
+ background-color: #3cb371;
+ border-radius: 10px;
+ border: 1px solid #3cb371;
+}
 .title{
   font-family: 'dreamorphans-b';
-font-size: 100px;
+  font-size: 95px;
+  font-weight:900;
 }
 .title-2{
   font-family: 'dreamorphans-b';
-font-size: 55px;
+  font-size: 65px;
+  font-weight:900;
 }
 
 /* Media Queries */
