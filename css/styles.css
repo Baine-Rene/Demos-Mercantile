@@ -243,6 +243,7 @@ button .nav-link{
 .glossary .btn:hover{
     color: #000000;
     background-color: white;
+    border: 1px solid #000000;
 }
 /* Back to top */
 .back-to-top {
