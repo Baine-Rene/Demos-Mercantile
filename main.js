@@ -1,4 +1,4 @@
- // Initiate the wowjs
+// Initiate the wowjs
     new WOW().init();
 
  // Back to top button
@@ -13,3 +13,4 @@
             $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
             return false;
         });
+

@@ -60,6 +60,10 @@ font-size: 16px;
     #contact h1{
       font-family: 'dreamorphans-b'; 
     }
+    #contact p{
+      font-family: 'inter';
+      font-weight: 400;
+    }
     #contact ::placeholder{
       font-family: cursive;
     }
