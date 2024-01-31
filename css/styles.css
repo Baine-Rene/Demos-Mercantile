@@ -218,6 +218,11 @@ button .nav-link{
     color: white;
 }
 
+/* Gallery */
+.gallery-title{
+  font-family: 'dreamorphans-b'; 
+}
+
 /* Glossary */
 
 .glossary h1{

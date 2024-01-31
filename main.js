@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const lightbox = GLightbox();
+  });
+  
 // Initiate the wowjs
     new WOW().init();
 
