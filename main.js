@@ -1,12 +1,5 @@
-  /**
-   * Initiate glightbox 
-   */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
 
-  
-  const lightbox = GLightbox({
+const lightbox = GLightbox({
     selector: '.glightbox',
   });
 
@@ -19,7 +12,7 @@
       hamburger.classList.toggle("is-active");
       // Do something else, like open/close menu
     });
-    
+
   
 // Initiate the wowjs
     new WOW().init();
